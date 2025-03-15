@@ -3,7 +3,14 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 
+import App from './App'
+// import Home from './pages/Home/HomePage'
+// import About from './pages/About/AboutPage'
+import Portfolio from './pages/Portfolio/PortfolioPage'
+// import Contact from './pages/Contact/ContactPage'
+// import Resume from './pages/Resume/ResumePage'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -14,21 +21,25 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
-        element: <About />,
-      },
-      {
-        path: '/Blog',
-        element: <Blog />,
-      },
-      {
-        path: '/Contact',
-        element: <Contact />,
-      },
-    ],
+        element: <Portfolio />,
+      },]
+    //   {
+    //     path: '/About',
+    //     element: <About />,
+    //   },
+    //   {
+    //     path: '/Portfolio',
+    //     element: <Portfolio />,
+    //   },
+    //   {
+    //     path: '/Contact',
+    //     element: <Contact />,
+    //   },
+    //   {
+    //     path: '/Resume',
+    //     element: <Resume />
+    //   }
+    // ],
   },
 ]);
 
