@@ -7,7 +7,7 @@ import './App.css'
 
 import App from './App'
 // import Home from './pages/Home/HomePage'
-// import About from './pages/About/AboutPage'
+import About from './pages/About/AboutPage'
 import Portfolio from './pages/Portfolio/PortfolioPage'
 // import Contact from './pages/Contact/ContactPage'
 // import Resume from './pages/Resume/ResumePage'
@@ -22,11 +22,11 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Portfolio />,
+      },
+      {
+        path: '/About',
+        element: <About />,
       },]
-    //   {
-    //     path: '/About',
-    //     element: <About />,
-    //   },
     //   {
     //     path: '/Portfolio',
     //     element: <Portfolio />,
