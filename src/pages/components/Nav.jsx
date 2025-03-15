@@ -9,7 +9,7 @@ export default function Nav() {
                 <div className="container-fluid">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                        <Link to="/Portfolio" className={page === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+                        <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
                         </li>
                         <li className="nav-item">
                         <Link to="/About" className={page === '/About' ? 'nav-link active' : 'nav-link'}>About</Link>
