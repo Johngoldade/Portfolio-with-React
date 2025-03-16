@@ -6,10 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 import App from './App'
-// import Home from './pages/Home/HomePage'
 import About from './pages/About/AboutPage'
 import Portfolio from './pages/Portfolio/PortfolioPage'
-// import Contact from './pages/Contact/ContactPage'
+import Contact from './pages/Contact/ContactPage'
+import { StrictMode } from 'react';
 // import Resume from './pages/Resume/ResumePage'
 
 // Define the accessible routes, and which components respond to which URL
@@ -26,15 +26,11 @@ const router = createBrowserRouter([
       {
         path: '/About',
         element: <About />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />,
       },]
-    //   {
-    //     path: '/Portfolio',
-    //     element: <Portfolio />,
-    //   },
-    //   {
-    //     path: '/Contact',
-    //     element: <Contact />,
-    //   },
     //   {
     //     path: '/Resume',
     //     element: <Resume />
@@ -44,5 +40,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
 );

@@ -6,22 +6,39 @@
 }
 
 main {
-  background-color: #a99985;
+  display: flex;
+  justify-content: center;
+  color: #c5cbd3;
+  background-color: #283845;
   min-height: 90vh;
 }
 
 footer {
-  background-color: #dad2bc;
+  background-color: #c5cbd3;
+  border-top: 5px solid #a37c40;
 }
 
-.header {
-  background-color: #70798c;
-  color: #252323;
+header {
+  min-height: 300px;
+  background-image: url('./assets/software-development-company.jpg');
+  background-size: cover;
+  background-position:bottom;
+  color: #c5cbd3;
+  border-bottom: 5px solid #a37c40;
 }
 
-.nav {
-  background-color: #dad2bc;
-  color: #252323
+nav {
+  background-color: #c5cbd3;
+  border-radius: 5px;
+}
+
+form {
+  border: 2px solid #a37c40;
+  border-radius: 5px;
+}
+
+.form-div {
+  width: 500px
 }
 
 .cards-img {
@@ -31,7 +48,8 @@ footer {
 
 .cards {
   width: 40%;
-  height: 500px
+  height: 500px;
+  border: 2px solid #a37c40;
 }
 
 .cards-back {
@@ -48,6 +66,16 @@ footer {
   
 }
 
+.about-img {
+  max-width: 500px;
+  border: 2px solid #a37c40;
+  border-radius: 5px;
+}
+
+.about-p {
+  border: 2px solid #a37c40;
+  border-radius: 5px;
+}
 .footer-img {
   max-width: 100px;
   max-height: 100px;

@@ -5,22 +5,27 @@ export default function Nav() {
 
     return(
         <>
-            <nav className="navbar navbar-expand-lg nav">
+            <nav className="fs-5 navbar navbar-expand-lg m-5">
                 <div className="container-fluid">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                        <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link to="/About" className={page === '/About' ? 'nav-link active' : 'nav-link'}>About</Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link to="/Contact" className={page === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link to="/Resume" className={page === '/Resume' ? 'nav-link active' : 'nav-link'}>Resume</Link>
-                        </li>
-                    </ul>
+                    <button className="navbar-toggler border border-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                            <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link to="/About" className={page === '/About' ? 'nav-link active' : 'nav-link'}>About</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link to="/Contact" className={page === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link to="/Resume" className={page === '/Resume' ? 'nav-link active' : 'nav-link'}>Resume</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </>
