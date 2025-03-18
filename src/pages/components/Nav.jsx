@@ -5,7 +5,7 @@ export default function Nav() {
 
     return(
         <>
-            <nav className="fs-5 navbar navbar-expand-lg m-5">
+            <nav className="fs-5 navbar navbar-expand-lg m-3">
                 <div className="container-fluid">
                     <button className="navbar-toggler border border-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

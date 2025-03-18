@@ -10,51 +10,51 @@
 const sites = [
     {
             id: 1,
-            imgPath:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1200px-Roasted_coffee_beans.jpg',
+            imagePath: '../../../../public/siteImages/GCBWebsiteHome.png',
             imgDescription: '1',
             projectName:'Good Coffee Beans',
-            projectUrl:'1',
-            repoUrl:'1'
+            projectUrl:'https://zaccahimba.github.io/GoodCoffeeBeans/',
+            repoUrl:'https://github.com/zaccahimba/GoodCoffeeBeans'
     },
     {
             id: 2,
-            imgPath:'https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638886301/EducationHub/photos/lightning-bolts.jpg',
+            imagePath: '../../../../public/siteImages/WeatherViewHome.png',
             imgDescription: '2',
             projectName:'Weather View',
-            projectUrl:'2',
-            repoUrl:'2'
+            projectUrl:'https://weather-view-767i.onrender.com/',
+            repoUrl:'https://github.com/Johngoldade/Weather-View'
     },
     {
             id: 3,
-            imgPath:'https://marketplace.canva.com/EAFwckKNjDE/2/0/1600w/canva-black-white-grayscale-portfolio-presentation-vzScEqAI__M.jpg',
+            imagePath: '../../../../public/siteImages/CSSPortfolio.png',
             imgDescription: '3',
-            projectName:' Original Portfolio',
-            projectUrl:'3',
-            repoUrl:'3'
+            projectName:'Portfolio with CSS',
+            projectUrl:'https://johngoldade.github.io/Portfolio-with-CSS/',
+            repoUrl:'https://github.com/Johngoldade/Portfolio-with-CSS'
     },
     {
             id: 4,
-            imgPath:'https://chartscss.org/assets/img/charts-css-anatomy-0-9-0.jpg',
+            imagePath: '../../../../public/siteImages/CSSCheatsheet.png',
             imgDescription: '4',
             projectName:'CSS CheatSheet',
-            projectUrl:'4',
-            repoUrl:'4'
+            projectUrl:'https://johngoldade.github.io/CSS-CheatSheet/',
+            repoUrl:'https://github.com/Johngoldade/CSS-CheatSheet'
     },
     {
             id: 5,
-            imgPath:'https://newlightdigital.com/wp-content/uploads/2023/12/planning-your-new-website.jpeg',
+            imagePath: '../../../../public/siteImages/MyNewWebsiteHome.png',
             imgDescription: '5',
             projectName:'My New Website',
-            projectUrl:'5',
-            repoUrl:'5'
+            projectUrl:'https://johngoldade.github.io/My-New-Website/',
+            repoUrl:'https://github.com/Johngoldade/My-New-Website'
     }, 
     {
             id: 6,
-            imgPath:'https://livinglutheran.blob.core.windows.net/cdn/wp-content/uploads/2022/10/study-guide.png',
+            imagePath: '../../../../public/siteImages/PreWorkStudyGuide.png',
             imgDescription: '6',
             projectName:'Bootcamp PreWork Study Guide',
-            projectUrl:'6',
-            repoUrl:'6'
+            projectUrl:'https://johngoldade.github.io/prework-study-guide/',
+            repoUrl:'https://github.com/Johngoldade/prework-study-guide'
     }
     
 ]
