@@ -29,10 +29,18 @@ header {
 
 nav {
   background-color: #c5cbd3;
+  border: 2px solid #a37c40;
   border-radius: 5px;
 }
 
 form {
+  border: 2px solid #a37c40;
+  border-radius: 5px;
+}
+
+.header-h1 {
+  background-color: #c5cbd3;
+  color: #252323;
   border: 2px solid #a37c40;
   border-radius: 5px;
 }
@@ -43,17 +51,27 @@ form {
 
 .cards-img {
   width: 100%;
+  background-size: cover;
   height: 100%;
-}
+  border-radius: 4px 4px 0 0;
+
+} 
 
 .cards {
   width: 40%;
-  height: 500px;
+  /* height: 500px; */
   border: 2px solid #a37c40;
 }
 
 .cards-back {
-  background-color: rgb(245, 241, 237, 0.3);
+  background-color: rgb(197, 203, 211);
+  border-top: 2px solid #a37c40;
+  border-radius: 0px 0px 4px 4px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .cards-links {
@@ -62,8 +80,8 @@ form {
 }
 
 .card-title {
-  color: #252323
-  
+  color: #252323;
+  text-decoration: none;
 }
 
 .about-img {
@@ -83,4 +101,11 @@ form {
 
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 960px) {
+  .cards {
+    min-width: 100%;
+    height: auto;
+  }
 }
