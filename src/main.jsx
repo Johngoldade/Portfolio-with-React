@@ -10,7 +10,7 @@ import About from './pages/About/AboutPage'
 import Portfolio from './pages/Portfolio/PortfolioPage'
 import Contact from './pages/Contact/ContactPage'
 import { StrictMode } from 'react';
-// import Resume from './pages/Resume/ResumePage'
+import Resume from './pages/Resume/ResumePage'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -30,12 +30,12 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
-      },]
-    //   {
-    //     path: '/Resume',
-    //     element: <Resume />
-    //   }
-    // ],
+      },
+      {
+        path: '/Resume',
+        element: <Resume />
+      }
+    ],
   },
 ]);
 
