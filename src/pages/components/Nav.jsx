@@ -13,10 +13,10 @@ export default function Nav() {
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                            <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+                            <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'}>About</Link>
                             </li>
                             <li className="nav-item">
-                            <Link to="/About" className={page === '/About' ? 'nav-link active' : 'nav-link'}>About</Link>
+                            <Link to="/Portfolio" className={page === '/Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
                             </li>
                             <li className="nav-item">
                             <Link to="/Contact" className={page === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
