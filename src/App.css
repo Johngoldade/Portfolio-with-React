@@ -45,6 +45,10 @@ form {
   border-radius: 5px;
 }
 
+.header-h2 {
+  text-decoration: underline;
+}
+
 .form-div {
   width: 500px
 }
@@ -91,6 +95,16 @@ form {
 }
 
 .about-p {
+  border: 2px solid #a37c40;
+  border-radius: 5px;
+}
+
+.resume-text {
+  text-decoration: none;
+  color: #a37c40
+}
+
+.prof-div {
   border: 2px solid #a37c40;
   border-radius: 5px;
 }

@@ -58,7 +58,7 @@ export default function Contact() {
 
     return (
         <div className="form-div p-5">
-            <h1 className="fs-2 p-5">Contact Me</h1>
+            <h2 className="fs-1 p-5 header-h2">Contact Me</h2>
             <p className="fs-5">Fill out the form below to contact me!</p>
             <form className="p-5" onSubmit={handleSubmit}>
                 <div className="mb-3">
