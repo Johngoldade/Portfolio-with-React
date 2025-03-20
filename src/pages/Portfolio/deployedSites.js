@@ -10,7 +10,7 @@
 const sites = [
     {
             id: 1,
-            imagePath: '../../../../public/siteImages/GCBWebsiteHome.png',
+            imagePath: '../../../../dist/GCBWebsiteHome.png',
             imgDescription: '1',
             projectName:'Good Coffee Beans',
             projectUrl:'https://zaccahimba.github.io/GoodCoffeeBeans/',
@@ -18,7 +18,7 @@ const sites = [
     },
     {
             id: 2,
-            imagePath: '../../../../public/siteImages/WeatherViewHome.png',
+            imagePath: '../../../../dist/WeatherViewHome.png',
             imgDescription: '2',
             projectName:'Weather View',
             projectUrl:'https://weather-view-767i.onrender.com/',
@@ -26,7 +26,7 @@ const sites = [
     },
     {
             id: 3,
-            imagePath: '../../../../public/siteImages/CSSPortfolio.png',
+            imagePath: '../../../../dist/CSSPortfolio.png',
             imgDescription: '3',
             projectName:'Portfolio with CSS',
             projectUrl:'https://johngoldade.github.io/Portfolio-with-CSS/',
@@ -34,7 +34,7 @@ const sites = [
     },
     {
             id: 4,
-            imagePath: '../../../../public/siteImages/CSSCheatsheet.png',
+            imagePath: '../../../../dist/CSSCheatsheet.png',
             imgDescription: '4',
             projectName:'CSS CheatSheet',
             projectUrl:'https://johngoldade.github.io/CSS-CheatSheet/',
@@ -42,7 +42,7 @@ const sites = [
     },
     {
             id: 5,
-            imagePath: '../../../../public/siteImages/MyNewWebsiteHome.png',
+            imagePath: '../../../../dist/MyNewWebsiteHome.png',
             imgDescription: '5',
             projectName:'My New Website',
             projectUrl:'https://johngoldade.github.io/My-New-Website/',
@@ -50,7 +50,7 @@ const sites = [
     }, 
     {
             id: 6,
-            imagePath: '../../../../public/siteImages/PreWorkStudyGuide.png',
+            imagePath: '../../../../dist/PreWorkStudyGuide.png',
             imgDescription: '6',
             projectName:'Bootcamp PreWork Study Guide',
             projectUrl:'https://johngoldade.github.io/prework-study-guide/',
