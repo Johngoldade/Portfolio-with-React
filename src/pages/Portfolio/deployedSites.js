@@ -10,7 +10,7 @@
 const sites = [
     {
             id: 1,
-            imagePath: '../../../../dist/GCBWebsiteHome.png',
+            imagePath: '../../../../GCBWebsiteHome.png',
             imgDescription: '1',
             projectName:'Good Coffee Beans',
             projectUrl:'https://zaccahimba.github.io/GoodCoffeeBeans/',
@@ -18,7 +18,7 @@ const sites = [
     },
     {
             id: 2,
-            imagePath: '../../../../dist/WeatherViewHome.png',
+            imagePath: '../../../../WeatherViewHome.png',
             imgDescription: '2',
             projectName:'Weather View',
             projectUrl:'https://weather-view-767i.onrender.com/',
@@ -26,7 +26,7 @@ const sites = [
     },
     {
             id: 3,
-            imagePath: '../../../../dist/CSSPortfolio.png',
+            imagePath: '../../../../CSSPortfolio.png',
             imgDescription: '3',
             projectName:'Portfolio with CSS',
             projectUrl:'https://johngoldade.github.io/Portfolio-with-CSS/',
@@ -34,7 +34,7 @@ const sites = [
     },
     {
             id: 4,
-            imagePath: '../../../../dist/CSSCheatsheet.png',
+            imagePath: '../../../../CSSCheatsheet.png',
             imgDescription: '4',
             projectName:'CSS CheatSheet',
             projectUrl:'https://johngoldade.github.io/CSS-CheatSheet/',
@@ -42,7 +42,7 @@ const sites = [
     },
     {
             id: 5,
-            imagePath: '../../../../dist/MyNewWebsiteHome.png',
+            imagePath: '../../../../MyNewWebsiteHome.png',
             imgDescription: '5',
             projectName:'My New Website',
             projectUrl:'https://johngoldade.github.io/My-New-Website/',
@@ -50,7 +50,7 @@ const sites = [
     }, 
     {
             id: 6,
-            imagePath: '../../../../dist/PreWorkStudyGuide.png',
+            imagePath: '../../../../PreWorkStudyGuide.png',
             imgDescription: '6',
             projectName:'Bootcamp PreWork Study Guide',
             projectUrl:'https://johngoldade.github.io/prework-study-guide/',
