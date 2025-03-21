@@ -1,5 +1,8 @@
+// Import needed package items
 import { Link } from 'react-router-dom'
 
+
+// Export resume component that automatically downloads resume from link and renders the HTML for the resume page
 export default function Resume() {
 
     return (

@@ -1,8 +1,9 @@
+// Import the needed images and package items
 import { Link } from 'react-router-dom'
 import socialImg from '../assets/social.png'
 
 
-
+// Export function that takes props and returns a card component 
 function Links(props) {
     
     return (

@@ -1,12 +1,5 @@
-// Props structure expected
-    // const props = {
-    //     imgPath:'',
-    //     imgDescription: '',
-    //     projectName:'',
-    //     projectUrl:'',
-    //     repoUrl:''
-    // }
-
+// Objects to populate the cards on the portfolio page
+// Will be passed to the component "Links" as props
 const sites = [
     {
             id: 1,

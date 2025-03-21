@@ -1,10 +1,14 @@
-import { useState, useEffect } from "react"
+// Import the needed hooks from React
+import { useState } from "react"
 
+// Function to verify that an email is valid
 function validEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
   } 
 
+
+// Export the from component that renders the HTML for the contact form
 export default function Contact() {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -12,10 +16,7 @@ export default function Contact() {
     const [error, setError] = useState(false)
     const [infoMessage, setInfoMessage] = useState('')
 
-    useEffect(() => {
-        
-       }, [])
-
+    // Function to handle an input to the form
     const handleInput = (event) => {
         const { target } = event
         const input = target.name
@@ -33,6 +34,8 @@ export default function Contact() {
         
     }
 
+    // Function to handle the form submission
+    // Verify that name, email, and message items are filled out properly
     const handleSubmit = (event) => {
         event.preventDefault()
         if (name && validEmail(email) && message) {
@@ -55,7 +58,7 @@ export default function Contact() {
         }
     }
 
-
+    // Return the HTML for the form component
     return (
         <div className="form-div p-5">
             <h2 className="fs-1 p-5 header-h2">Contact Me</h2>

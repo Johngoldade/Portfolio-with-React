@@ -1,7 +1,10 @@
+// Import the "Links" component 
 import Links from "./components/Links"
-
+// Import the "sites" object list
 import sites from "./deployedSites"
 
+
+// Export the portfolio component that has the HTML for the portfolio page and the portfolio cards built by the Links component w/ sites props
 export default function Portfolio() {
 
     return( 
