@@ -4,12 +4,13 @@
 
 ## Description
 
-This is my portfolio built with React.js.
+This is my portfolio built with React.js!
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Credits](#credits)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -17,11 +18,19 @@ This is my portfolio built with React.js.
 
 ## Installation
 
-To view the project, click this link to redirect to the webpage.
+To view the project, click this [link](https://johngoldadeportfolio.netlify.app/) to navigate to the webpage.
 
 ## Usage
 
-To use the project, follow these steps...
+Once you've successfully navigated to the webpage, feel free to poke around and see what you can learn about me and my work! 
+
+To get you started, here is a quick tutorial on the features you'll see.
+
+When the page loads, 
+
+## Credits
+
+
 
 ## License
 

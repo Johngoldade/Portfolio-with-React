@@ -1,4 +1,4 @@
-import family from './assets/IMG_0041.jpeg'
+import family from './assets/IMG_0104.png'
 
 export default function About() {
     return( 
