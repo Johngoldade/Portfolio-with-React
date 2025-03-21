@@ -1,8 +1,11 @@
+// Import package items and icons for use in the footer
 import { Link } from 'react-router-dom'
 import gitlogo from './assets/github-logo.png'
 import lilogo from './assets/linkedin.png'
 import devLogo from './assets/dev.png'
 
+
+// Export the footer component that renders the HTML for the footer
 export default function Footer() {
     return (
         <footer className='d-flex justify-content-center p-2'>

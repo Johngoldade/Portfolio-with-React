@@ -1,5 +1,8 @@
+// Import the package items needed for the navbar
 import { Link, useLocation } from 'react-router-dom'
 
+
+// Export the nav component that renders the HTML for the navbar in the header
 export default function Nav() {
     const page = useLocation().pathname
 

@@ -1,5 +1,8 @@
+// Import the navbar component for use in the header
 import Nav from './Nav'
 
+
+// Build and export the Header component that renders the HTML for the header
 function Header() {
     return( 
         <header className="header d-flex justify-content-between flex-row align-items-center">

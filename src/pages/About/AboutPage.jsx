@@ -1,5 +1,8 @@
+// Import main photo for the "About" page from the assets folder
 import family from './assets/IMG_0104.png'
 
+
+// Export the About component that renders the HTML for the about portion of the site
 export default function About() {
     return( 
         <div className="p-5">
